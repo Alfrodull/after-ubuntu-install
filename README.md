@@ -11,24 +11,40 @@
 之前备份了/etc/apt/sources.list   
 用了以下方法备份了软件安装列表，这回先按照此法恢复了，但是不全……  
 backup:   
-'''sudo dpkg --get-selections > my_installed_base'''  
+'''
+sudo dpkg --get-selections > my_installed_base
+'''
 recover:   
-'''sudo dpkg --set-selections < my_installed_base  
-sudo apt-get dselect-upgrade'''  
+'''
+sudo dpkg --set-selections < my_installed_base  
+sudo apt-get dselect-upgrade
+'''
+
 另外，导入源之后update出现找不到公钥的情况，经观察错误信息中的网址在[此处](http://www.tolaris.com/apt-repository/)找到了解决方法  
 
 ###sublime text 2
 
-'''sudo add-apt-repository ppa:webupd8team/sublime-text-2  
+'''
+sudo add-apt-repository ppa:webupd8team/sublime-text-2  
 sudo apt-get update  
-sudo apt-get install sublime-text'''  
+sudo apt-get install sublime-text
+'''
+
 [参考](http://yishanhe.net/sublime-text-2-ubuntu-ppa/)  
 
 ###git
 
-'''sudo apt-get install git'''  
+
+'''
+sudo apt-get install git
+'''
+
 
 ###build-essential
-'''sudo apt-get install build-essential'''  
+
+'''
+sudo apt-get install build-essential
+'''
+
 
 -----------------------------
