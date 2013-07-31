@@ -47,9 +47,9 @@ recover:
 
 ###Goldendict with eyoudao
 
-软件中心安装goldendict
-[downlaod eyoudao](http://sourceforge.net/projects/eyoudao/files/)
-[安装参考](http://hi.baidu.com/gbthereisaway/item/1f3dd5023568d560d45a1188)
-PS:二之3，只需添加 Html    eyoudao-pyfanyi    eyoudao -pyfanyi "%GDWORD%"，因为前两个用不了（至少在我的机子上是这样）
+软件中心安装goldendict  
+[downlaod eyoudao](http://sourceforge.net/projects/eyoudao/files/)  
+[安装参考](http://hi.baidu.com/gbthereisaway/item/1f3dd5023568d560d45a1188)  
+PS:二之3，只需添加 Html    eyoudao-pyfanyi    eyoudao -pyfanyi "%GDWORD%"，因为前两个用不了（至少在我的机子上是这样）  
 
 -----------------------------
