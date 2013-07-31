@@ -34,3 +34,22 @@ recover:
 	$ sudo apt-get install build-essential  
 
 -----------------------------
+####13.07.31
+###Flash
+
+[get Adobe Flash Player](http://get.adobe.com/cn/flashplayer/)
+
+	$ tar -zxvf install_flash_player_11_linux.x86_64.tar.gz
+	$ sudo mv libflashplayer.so  /usr/lib/mozilla/plugins/
+	$ sudo cp -r ./usr/* /usr/
+	$ rm -r ./usr/
+[参考](http://www.2cto.com/os/201205/133528.html)
+
+###Goldendict with eyoudao
+
+软件中心安装goldendict
+[downlaod eyoudao](http://sourceforge.net/projects/eyoudao/files/)
+[安装参考](http://hi.baidu.com/gbthereisaway/item/1f3dd5023568d560d45a1188)
+PS:二之3，只需添加 Html    eyoudao-pyfanyi    eyoudao -pyfanyi "%GDWORD%"，因为前两个用不了（至少在我的机子上是这样）
+
+-----------------------------
