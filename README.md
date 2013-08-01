@@ -5,4 +5,4 @@
 —— FJL 2013.07.30
 
 -------------
-详情参见[本项目wiki](./after-ubuntu-install/wiki)
+详情参见[本项目wiki](https://github.com/Alfrodull/after-ubuntu-install/wiki)
